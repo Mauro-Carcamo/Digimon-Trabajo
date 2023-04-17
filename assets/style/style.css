@@ -1,0 +1,76 @@
+body {
+    background-image: url('../images/fondo.jpg');
+    width: auto;
+    height: auto;
+}
+.title{
+    color: rgb(255, 228, 24);
+    font-family: '8BIT WONDER', sans-serif;
+    font-size: 30px;
+}
+
+#containertitulo{
+    margin: 20px;
+    text-align: center;
+    align-items :center;
+    width: 320px;
+    height: 110px;
+}
+
+#selector{
+    text-align: center;
+    align-items :center;
+    margin: 20px;
+    width: 320px;
+    height: 320px;  
+}
+
+#textnav1{
+color: rgb(255, 228, 24);
+font-family: '8BIT WONDER';
+font-size: 13px;
+}
+
+#textnav2{
+    color: rgb(255, 228, 24);
+    font-family: '8BIT WONDER';
+    font-size: 25px;
+    }
+
+#default_select{
+    font-family: '8BIT WONDER', sans-serif;
+}
+
+#containeraside{
+    font-family: '8BIT WONDER', sans-serif;
+    text-align: center;
+    margin: 20px;
+    width: 320px;
+    height: 320px;  
+}
+
+#containerimagen{
+    font-family: '8BIT WONDER', sans-serif;
+    text-align: center;
+    margin: 20px;
+    width: 320px;
+    height: 320px;  
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.col:last-child {
+    margin-right: 0;
+}
+
+#containerimagen img {
+    width: 100%;
+    height: 100%;
+}
